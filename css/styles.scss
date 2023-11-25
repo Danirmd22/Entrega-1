@@ -1,0 +1,249 @@
+@import "vars";
+@import "menu";
+@import "footer";
+@import "golf";
+@import "nosotros";
+@import "contacto";
+
+/* Home section */
+@keyframes appearFromTop {
+	from {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+@keyframes appearFromBottom {
+	from {
+		opacity: 0;
+		transform: translateY(150px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+@keyframes appearFromBottomSmall {
+	from {
+		opacity: 0;
+		transform: translateY(75px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+html {
+	
+	box-sizing: border-box;
+	font-size: 62.5%;
+	font-size: 10px;
+}
+*{
+		
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+	font-size: 62.5%;
+	font-size: 10px;
+}
+
+.home {
+	width: 100%;
+	height: 100vh;
+	background-image: url(https://images.unsplash.com/photo-1572811298797-9eecadf6cb24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	background-size: cover;
+	color: $color_1;
+	font-size: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-blend-mode: overlay;
+	background-color: $background-color_1;
+	background-attachment: fixed;
+	
+	h1 {
+		margin: 0;
+		color: $color_1;
+		font-size: 7rem;
+		animation: appearFromBottom 1s ease-out forwards ;
+		animation-delay: 1.5s;
+		opacity: 0;
+		
+		span {
+			color: $background-color_2;
+		}
+	}
+	p {
+		margin: 0;
+		color: $color_1;
+		font-size: 5rem;
+		margin-top: 1rem;
+		animation: appearFromBottomSmall 1s ease-out forwards;
+		animation-delay: 1.5s;
+		opacity: 0;
+	}
+	button {
+		font-weight: 700;
+		font-size: 2rem;
+		line-height: 30px;
+		margin-top: 2rem;
+		border: none;
+		color: $color_3;
+		padding: 7px 30px;
+		cursor: pointer;
+		border-radius: 11px;
+		background-color: $background-color_2;
+		overflow: hidden;
+		transition: background-color 0.5s ease;
+		animation: appearFromTop 1s ease-out forwards;
+		animation-delay: 1.5s;
+		opacity: 0;
+		&:hover {
+			background-color: #00FFFF;
+			
+		}
+	}
+}
+.scrollBlack {
+	padding: 0;
+	background-color: $background-color_2;
+}
+	
+
+.ocasion{
+	text-align: center;
+	padding: 20px;
+	h2{
+		font-size: 4rem;
+	}
+
+	.filaOcasion{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 20px;
+
+		.coche{
+			width: 300px;
+			padding: 10px;
+			text-align: center;
+			overflow: hidden;
+
+			
+
+			a{
+				text-decoration: none;
+				color: black
+			}
+
+			h3{
+				font-size: 1.75rem;
+				color: $color_2;
+			}
+			h4{
+				font-size: 2rem;
+			}
+
+			img{
+				max-width: 100%;
+				height: auto;
+
+			}
+
+			p{
+				font-size: 1.35rem;
+				margin: 10px;
+				
+				button{
+					background-color: #CC0C39;
+					width: 50px;
+					height: 28px;
+					border: 0px;
+					font-size: 1.6rem;
+					border-radius: 50px;
+					margin-right: 15px;
+					color: white;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+.marcas {
+	text-align: center;
+	background-image: url(https://images.unsplash.com/photo-1559533670-2195d0363733?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	background-blend-mode: overlay;
+	background-color: $background-color_4;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	
+	
+	h2{
+		margin: 0;
+		padding-top: 20px;
+		padding-bottom: 40px;
+		color: #F2A700;
+		font-size: 5rem;
+		margin-bottom: 10px;
+	}
+	
+	.fila2{
+
+
+		img{
+			margin-top: 5px;
+			margin-left: 90px;
+			margin-right: 90px;
+			width: 100px;
+			height: 100px;
+			margin-bottom: 30px;
+		}
+	}
+
+	.fila1{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+
+
+		img{
+			
+			width: 100px;
+			height: 100px;
+			margin-left: 75px;
+			margin-right: 75px;
+		}
+
+	}
+	
+}
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
