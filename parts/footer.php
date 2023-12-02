@@ -22,7 +22,7 @@
   	 		<div class="footer-col">
   	 			<h4>Contactanos</h4>
   	 			<ul>
-  	 				<li><a href="#">Contacto</a></li>
+  	 				<li><a href="contacto.php">Contacto</a></li>
   	 				<li>+34 644967201</li>
   	 				<li>C.Secretario F. de Vargas</li>
   	 			</ul>

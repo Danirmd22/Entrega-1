@@ -4,7 +4,7 @@
     <section class="home">
         <h1><span>Samba</span>Motor</h1>
         <p>Concesionario Oficial Grupo Vag</p>
-        <button class="btn primary">Más Información</button>
+        <a href="nuevos.php"><button class="btn primary">Más Información</button></a>
     </section>
 
 <section id="ocasion" class="ocasion">
@@ -63,6 +63,60 @@
     </div>
     <section class="ocasion">
         </section>
+
+        <h2 class="dt2">Reseñas de nuestros clientes</h2>
+<div class="clientes">
+<div class="cliente">
+    <div class="fotoCliente">
+        <img src="img/jambo1.jpg" alt="">
+    </div>
+    <div class="info">
+        <p class="nombre">Avila Heredia</p>
+        <p class="reseña">El Volkswagen Golf 8 2.0 TDI ofrece un rendimiento excepcional gracias a su motor diésel eficiente.
+             La potencia combinada con un consumo de combustible notablemente bajo lo convierte en una opción ideal para quienes buscan un equilibrio entre rendimiento y economía.</p>
+             <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+    </div>
+</div>
+
+<div class="cliente">
+    <div class="fotoCliente">
+        <img src="img/jambo2.jpg" alt="">
+    </div>
+    <div class="info">
+        <p class="nombre">Samba Bazalo</p>
+        <p class="reseña">Con líneas limpias y un diseño moderno, el Golf 8 2.0 TDI cautiva con su estética contemporánea.
+             Su interior bien diseñado, con materiales de calidad y una interfaz intuitiva, brinda una experiencia de conducción cómoda y atractiva.</p>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9734;</span>
+    </div>
+</div>
+
+<div class="cliente">
+    <div class="fotoCliente">
+        <img src="img/jambo3.jpg" alt="">
+    </div>
+    <div class="info">
+        <p class="nombre">Javier Cotilla</p>
+        <p class="reseña"> Equipado con tecnología avanzada, este modelo ofrece una amplia gama de características de seguridad y comodidad. 
+            Desde asistentes de conducción hasta sistemas de infoentretenimiento de última generación,
+             el Golf 8 2.0 TDI se destaca por su conectividad y funcionalidades innovadoras que mejoran la experiencia del conductor y los pasajeros.</p>
+
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+                <span class="icono-estrella">&#9733;</span>
+    </div>
+</div>
+</div>
+
 
 
 

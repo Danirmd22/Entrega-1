@@ -1,0 +1,88 @@
+.centrar-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .cont-nuevos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+       grid-gap: 20px;
+
+      padding-top: 50px;
+      padding-bottom: 50px  ;
+  
+      .conce {
+        position: relative;
+        width: 100%;
+  
+        &:nth-child(1)::after {
+          content: "Audi SambaMotor"; 
+        }
+  
+        &:nth-child(2)::after {
+          content: "Volskwagen SambaMotor"; 
+        }
+        &:nth-child(3)::after {
+            content: "Cupra SambaMotor"; 
+          }
+
+          &:nth-child(4)::after {
+            content: "Seat SambaMotor"; 
+          }
+          &:nth-child(5)::after {
+            content: "Porsche SambaMotor"; 
+          }
+          &:nth-child(6)::after {
+            content: "BMW SambaMotor"; 
+          }
+  
+       
+        
+        img {
+          width: 635px;
+          height: 395px;
+
+          transition: filter 0.25s ease; 
+
+        }
+  
+        &::after {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          opacity: 0;
+          
+          color: white;
+          font-size: 24px;
+
+          font-weight: bold;
+
+          pointer-events: none;
+          transition: opacity 0.25s ease-in;
+
+        }
+  
+        &:hover {
+          img {
+
+            filter: brightness(60%) ;
+
+          }
+          &::after {
+
+            opacity: 1;
+          }
+
+        }
+      }
+
+
+    }
+  }
+  
+  
+
+
+  
+  
